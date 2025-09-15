@@ -40,6 +40,6 @@ jobs:
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: 'vampireisoves/mytestblog'
+          repository: 'vampireisoves/cloudflare-deployments-clean'
           retain_days: 1
           keep_minimum_runs: 3
